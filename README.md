@@ -94,6 +94,8 @@ Frontend runs at `http://localhost:3000`.
    (set `CLIENT_URL` to your Vercel URL once you have it).
 7. Deploy — Render gives you a public URL like `https://task-manager-backend.onrender.com`.
 
+#### Render URL - https://taskmanagerapp-chjz.onrender.com/
+
 ### Frontend → Vercel
 
 1. Push the `frontend/` folder to a GitHub repo (or the same repo, different root).
@@ -103,6 +105,8 @@ Frontend runs at `http://localhost:3000`.
 4. Deploy — Vercel gives you a public URL like `https://task-manager.vercel.app`.
 5. Go back to Render and update `CLIENT_URL` to this Vercel URL, then redeploy the backend
    so CORS allows requests from your live frontend.
+
+#### Vercel URL - https://task-manager-app-psi-lemon.vercel.app/
 
 ## Testing the deployed app
 
